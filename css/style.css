@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mParent {
+    background-color: #fff;
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.mParent > div {
+    width: 30%;
+    height: 30%;
+    padding-top: 30%;
+    background-color: #ff00ff;
+    border-radius: 8%;
+    float: left;
+    margin: 1%;
+}
